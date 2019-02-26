@@ -22,6 +22,7 @@ Plugin 'scrooloose/nerdtree'
 "Plugin 'tpope/vim-abolish'
 Plugin 'qpkorr/vim-bufkill'
 "Plugin 'Yggdroot/indentLine'
+Plugin 'tpope/vim-sensible'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -41,6 +42,7 @@ filetype plugin indent on    " required
 " vim-colors-solarized
 syntax on
 set background=dark
+" Silent in case it's not set up yet
 silent! colorscheme solarized
 
 set nu
